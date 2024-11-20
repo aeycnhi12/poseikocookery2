@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- STYLE CSS-->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Recipe Sharing Platform</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="icon.png" alt="Poseiko Cookery Logo" class="logo">
+                Poseiko Cookery
+            </a>
+        </div>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#recipe">Course Recipe</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            
+        </div>
+    </header>
+
+        <div class="page">
+            <div class="content">
+                <h4> Unleash your Culinary Passion </h4>
+                <h1> Discover Taste Sensations </h1>
+                <h3> Elevate your Cooking Game </h3>
+                </div>
+        </div>
+       
+        <section id ="recipe" class="container">
+            <div class="card_container">
+                <!-- CARD 1 -->
+                <article class="card-article">
+                    <div class="card_image">
+                        <img src="recipe/APPETIZER.jpg" alt="Appetizer" class="card_image">
+                        <div class="card_shadow"></div>
+                    </div>
+                    <div class="card_data">
+                        <h3 class="card_name">APPETIZER</h3>
+                        <a href="appetizer.html" class="card_button">View More</a>
+                    </div>
+                </article>
+    
+                <!-- CARD 2 -->
+                <article class="card-article">
+                    <div class="card_image">
+                        <img src="recipe/MAIN COURSE.jpeg" alt="Main Course" class="card_image">
+                        <div class="card_shadow"></div>
+                    </div>
+                    <div class="card_data">
+                        <h3 class="card_name">MAIN COURSE</h3>
+                        <a href="course.html" class="card_button">View More</a>
+                    </div>
+                </article>
+    
+                <!-- CARD 3 -->
+                <article class="card-article">
+                    <div class="card_image">
+                        <img src="recipe/SALAD.jpg" alt="Salad" class="card_image">
+                        <div class="card_shadow"></div>
+                    </div>
+                    <div class="card_data">
+                        <h3 class="card_name">SALAD</h3>
+                        <a href="salad.html" class="card_button">View More</a>
+                    </div>
+                </article>
+    
+                <!-- CARD 4 -->
+                <article class="card-article">
+                    <div class="card_image">
+                        <img src="recipe/dessert.jpeg" alt="Dessert" class="card_image">
+                        <div class="card_shadow"></div>
+                    </div>
+                    <div class="card_data">
+                        <h3 class="card_name">DESSERT</h3>
+                        <a href="dessert.html" class="card_button">View More</a>
+                    </div>
+                </article>
+    
+            </div>
+            <script src="course.js"></script>
+        </section>  
+
+        <section id="about" class="about"> 
+            <div class="about-us">
+                <h5> ABOUT US </h5>
+                <p> Welcome to Poseiko Cookery, your go-to destination for delicious and easy-to-follow recipes! 
+                    <br> Our mission is to inspire your culinary journey with a variety of mouthwatering dishes— 
+                    <br> from hearty main courses to light appetizers, decadent desserts, and vibrant salads. 
+                    <br> Whether you're a seasoned chef or a kitchen newbie, we have something for everyone.
+                    <br> Our carefully curated recipes are designed to bring out flavors, create memorable meals, 
+                    <br> and make cooking a fun, rewarding experience. Join us as we explore the art of cooking, one recipe at a time!</p>
+            </div>
+        </section>
+ 
+        <section id="contact" class="container-flex">
+            <!-- About Us Section -->
+            <div class="contact-us">
+                <h5>CONTACT US</h5>
+                <p>If you have any questions or need assistance, please feel free to reach out to us. You can contact us via:</p>
+                <ul>
+                  <li>Email: contact@example.com</li>
+                  <li>Phone: (123) 456-7890</li>
+                  <li>Address: 123 Main St, City, Country</li>
+                </ul>
+            </div>
+            
+            <!-- Request Form Section -->
+            <div class="request-form">
+                <h2>Request a New Recipe</h2>
+                <form onsubmit="return false;">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        
+                    <label for="recipe-details">Recipe Details:</label>
+                    <textarea id="recipe-details" name="recipe_details" rows="4" placeholder="Describe the recipe you'd like" required></textarea>
+        
+                    <button type="submit">Submit Request</button>
+                </form>
+            </div>
+        </section>
+
+        <br><br><br><br><br>
+
+         <!-- Footer Section with ID -->
+         <footer id="contact-footer">
+            <div class="footer-content">
+                <p>&copy; 2024 Recipe Sharing Platform. <br> All rights reserved.</p>
+            </div>
+        </footer>
+
+    </body>
+</html>

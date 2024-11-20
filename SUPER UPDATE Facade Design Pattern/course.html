@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- STYLE CSS--> 
+        <link rel="stylesheet" href="course.css">
+
+    <title> Recipe Sharing Platform </title>
+    </head>
+
+    <body>
+        <header> 
+            <div class="logo">
+                <a href="index.html"> 
+            <img src="icon.png" alt="Poseiko Cookery Logo" class="logo"> 
+                    Poseiko Cookery 
+            </a>
+        </div>
+            <div class="nav-bar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#recipe">Course Recipe</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <section>
+        <div class="box-container">
+
+            <div class="box small-box">
+                <h2>MAIN COURSE RECIPES</h2>
+                <ul>
+                    <li onclick="showRecipe('meatballCasserole')">Meatball Casserole</li>
+                    <li onclick="showRecipe('honeyGarlicChicken')">Honey-Garlic Chicken</li>
+                    <li onclick="showRecipe('chickenNachos')">Chicken Nachos</li>
+                    <li onclick="showRecipe('panSearedSteak')">Pan-Seared Strip Steaks</li>
+                    <li onclick="showRecipe('hamCarbonara')">Ham Carbonara With Peas</li>
+                    <li onclick="showRecipe('steakDiane')">Steak Diane</li>
+                    <li onclick="showRecipe('ovenBakedDrumsticks')">Oven-Baked Chicken Drumsticks</li>
+                    <li onclick="showRecipe('porkChops')">Smothered Pork Chops</li>
+                    <li onclick="showRecipe('parmesanChicken')">Parmesan Crusted Chicken</li>
+                    <li onclick="showRecipe('fishSticks')">Crunchy Potato Chip-Crusted Fish Sticks</li>
+                </ul>
+
+                <div class="navigation-buttons">
+                    <button onclick="location.href='appetizer.html'">PREVIOUS</button>
+                    <button onclick="location.href='salad.html'">NEXT</button>
+                </div>
+
+            </div>
+
+            <div class="box large-box">
+                <div id="detail-box">
+                    <div id="recipeContent">
+
+                    </div>
+                </div>
+            </div>
+            <script src="course.js"></script>
+        </section>
+
+        
+    <!-- Footer Section with ID -->
+    <footer id="contact-footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Recipe Sharing Platform. <br> All rights reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

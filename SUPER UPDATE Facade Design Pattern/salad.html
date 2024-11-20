@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- STYLE CSS-->
+        <link rel="stylesheet" href="salad.css">
+
+    <title> Recipe Sharing Platform </title>
+    </head> 
+
+    <body>
+        <header> 
+            <div class="logo">
+                <a href="index.html"> 
+            <img src="icon.png" alt="Poseiko Cookery Logo" class="logo"> 
+                    Poseiko Cookery 
+            </a>
+        </div>
+            <div class="nav-bar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#recipe">Course Recipe</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <section>  
+        <div class="box-container">
+            
+            <div class="box small-box">
+                <h2>SALAD RECIPES</h2>
+                <ul>
+                    <li onclick="showRecipe('greekSalad')">Greek Salad</li>
+                    <li onclick="showRecipe('caesarSalad')">Caesar Salad</li>
+                    <li onclick="showRecipe('capreseSalad')">Caprese Salad</li>
+                    <li onclick="showRecipe('waldorfSalad')">Waldorf Salad</li>
+                    <li onclick="showRecipe('cobbSalad')">Cobb Salad</li>
+                    <li onclick="showRecipe('quinoaSalad')">Quinoa Salad</li>
+                    <li onclick="showRecipe('tacoSalad')">Taco Salad</li>
+                    <li onclick="showRecipe('fruitSalad')">Fruit Salad</li>
+                    <li onclick="showRecipe('ssSalad')">Spinach and Strawberry Salad</li>
+                    <li onclick="showRecipe('chickpeaSalad')">Chickpea Salad</li>
+                </ul>
+
+                <div class="navigation-buttons">
+                    <button onclick="location.href='course.html'">PREVIOUS</button>
+                    <button onclick="location.href='dessert.html'">NEXT</button>
+                </div>
+            </div>
+
+
+            <div class="box large-box">
+                <div id="detail-box">
+                    
+                    </div>
+            </div>
+        </div>
+        <script src="salad.js"></script>
+        </section>
+
+           
+    <!-- Footer Section with ID -->
+    <footer id="contact-footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Recipe Sharing Platform. <br> All rights reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
